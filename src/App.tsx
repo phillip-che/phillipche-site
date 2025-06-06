@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Gear from './pages/Gear';
+import Contact from './pages/Contact';
 // import Gallery from './pages/Gallery';
 import ScrollToTop from './utils/ScrollToTop';
 import { Layout } from './components/Layout';
@@ -70,6 +71,7 @@ const App = () => {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/gear" element={<Gear />} />
+                    <Route path="/contact" element={<Contact />} />
                     {/* <Route path="/gallery" element={<Gallery />} /> */}
                   </Routes>
                 </motion.div>

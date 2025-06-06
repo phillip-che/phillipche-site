@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.1.1",
     "@spotify/web-api-ts-sdk": "^1.1.2",

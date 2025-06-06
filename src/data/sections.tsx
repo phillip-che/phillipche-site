@@ -120,7 +120,7 @@ export const sections = [
             {
               title: "YouTube",
               description: "documenting my life as a software engineer",
-              stats: "13 videos",
+              stats: "19 videos",
               color: "rose"
             },
             {
