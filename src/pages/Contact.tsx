@@ -103,8 +103,7 @@ const Contact = () => {
       cal("ui", {
         "styles": {
           "branding": { "brandColor": "#000000" }
-        },
-        "hideEventTypeDetails": false
+        }
       });
     })();
   }, [selectedEvent]);
@@ -327,7 +326,6 @@ const Contact = () => {
                       border: "none"
                     }}
                     config={{
-                      "hideEventTypeDetails": false,
                       "theme": "auto"
                     }}
                   />
