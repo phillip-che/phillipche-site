@@ -1,0 +1,171 @@
+/**
+ * Gear page data — mirrors your Amazon storefront lists.
+ *
+ * SYNCING WITH AMAZON:
+ * Amazon does not provide a public API for influencer storefront / idea lists,
+ * so this file is the source of truth. When you add or remove items (or a
+ * collection) on your Amazon storefront, update this file to match.
+ *
+ * List URLs (for reference):
+ * - Desk Setup:  https://www.amazon.com/shop/phillipche/list/2EL6EOCFIKQ6O
+ * - Recording:   https://www.amazon.com/shop/phillipche/list/1Z7YDJROMUT40
+ * - PC Gear:     https://www.amazon.com/shop/phillipche/list/2IJ800MZ94A7W
+ *
+ * To add an item: push a new entry with name, link, and image URL.
+ */
+
+export interface GearEntry {
+  name: string;
+  link: string;
+  image: string;
+}
+
+export interface GearCategory {
+  category: string;
+  listUrl: string;
+  items: GearEntry[];
+}
+
+const AMAZON_PLACEHOLDER =
+  "https://m.media-amazon.com/images/G/01/social/api-share/amazon_logo_500500._V323939215_.png";
+
+export const gearCategories: GearCategory[] = [
+  {
+    category: "Desk Setup",
+    listUrl: "https://www.amazon.com/shop/phillipche/list/2EL6EOCFIKQ6O",
+    items: [
+      {
+        name: "LiberNovo Dynamic Ergonomic Office Chair",
+        link: "https://amzn.to/3MWmraL",
+        image: "https://m.media-amazon.com/images/I/51frk9L5dgL._AC_SL1500_.jpg",
+      },
+      {
+        name: "LOFREE Flow Lite 84 Keys",
+        link: "https://amzn.to/4cl5Vvu",
+        image: "https://m.media-amazon.com/images/I/61z5Q8bkrkL._AC_SL1500_.jpg",
+      },
+      {
+        name: "LOFREE Flow2 Low-Profile Mechanical Keyboard",
+        link: "https://amzn.to/4l4yYpx",
+        image: "https://m.media-amazon.com/images/I/61YNZRCJnuL._AC_SL1500_.jpg",
+      },
+      {
+        name: "FIFINE Gaming XLR/USB Microphone Kit",
+        link: "https://amzn.to/4aW9c1J",
+        image: "https://m.media-amazon.com/images/I/61lQRD5+66L._AC_SL1500_.jpg",
+      },
+      {
+        name: "Under Desk Cable Management Tray",
+        link: "https://amzn.to/4l4SmTc",
+        image: "https://m.media-amazon.com/images/I/81vGseJ4e6L._AC_SL1500_.jpg",
+      },
+      {
+        name: "GUNMJO Pro Custom Coiled USB-C Cable",
+        link: "https://amzn.to/40z0CkP",
+        image: "https://m.media-amazon.com/images/I/61QcNG-4L1L._SL1500_.jpg",
+      },
+      {
+        name: "JOYROOM 9 Pack Magnetic Cable Clips",
+        link: "https://amzn.to/4rEQC5t",
+        image: "https://m.media-amazon.com/images/I/81yvBDKR49L._AC_SL1500_.jpg",
+      },
+      {
+        name: "HyperX QuadCast S",
+        link: "https://amzn.to/4sgOyAu",
+        image: "https://m.media-amazon.com/images/I/61dQJkzRopL._AC_SL1500_.jpg",
+      },
+      {
+        name: "EPOMAKER x Aula F65 65% Wireless",
+        link: "https://amzn.to/4rJrGdi",
+        image: "https://m.media-amazon.com/images/I/613gc0JYwpL._AC_SL1500_.jpg",
+      },
+      {
+        name: "SteelSeries QcK Gaming Mouse Pad",
+        link: "https://amzn.to/4aW9kyf",
+        image: "https://m.media-amazon.com/images/I/31AROTdFEzL._AC_SL1050_.jpg",
+      },
+    ],
+  },
+  {
+    category: "Recording Gear",
+    listUrl: "https://www.amazon.com/shop/phillipche/list/1Z7YDJROMUT40",
+    items: [
+      {
+        name: "DJI Osmo Pocket 3",
+        link: "https://amzn.to/3ODz2QU",
+        image: "https://m.media-amazon.com/images/I/61tukvVUMiL._AC_SL1500_.jpg",
+      },
+      {
+        name: "ULANZI PM01 Magnetic Mount Stand",
+        link: "https://amzn.to/4cl6dm4",
+        image: "https://m.media-amazon.com/images/I/61OzCjisLHL._AC_SL1500_.jpg",
+      },
+      {
+        name: "NEEWER Variable ND64-512 Filter",
+        link: "https://amzn.to/4u3kB8L",
+        image: "https://m.media-amazon.com/images/I/61AUJhcU+AL._AC_SL1500_.jpg",
+      },
+      {
+        name: "DJI Osmo Mini Tripod",
+        link: "https://amzn.to/4bf5rpv",
+        image: "https://m.media-amazon.com/images/I/611hT2xQ1zL._AC_SL1500_.jpg",
+      },
+      {
+        name: "DJI Osmo Pocket 3 Battery Handle",
+        link: "https://amzn.to/4r234uU",
+        image: "https://m.media-amazon.com/images/I/51i0zyJvAHL._AC_SL1500_.jpg",
+      },
+      {
+        name: "Magnetic Camera Desktop Base Stand",
+        link: "https://amzn.to/4l3igqu",
+        image: "https://m.media-amazon.com/images/I/61ECr0pB59L._AC_SL1500_.jpg",
+      },
+      {
+        name: "uni SD Card Reader",
+        link: "https://amzn.to/4cl9IsK",
+        image: "https://m.media-amazon.com/images/I/61LoxJ701dL._AC_SL1474_.jpg",
+      },
+      {
+        name: "Amazon Basics Micro SDXC 256 GB",
+        link: "https://amzn.to/4aV8DFx",
+        image: "https://m.media-amazon.com/images/I/612SKs+CB1L._AC_SL1500_.jpg",
+      },
+    ],
+  },
+  {
+    category: "PC Gear",
+    listUrl: "https://www.amazon.com/shop/phillipche/list/2IJ800MZ94A7W",
+    items: [
+      {
+        name: "Lian Li A4-H2O",
+        link: "https://amzn.to/3NbQVFX",
+        image: "https://m.media-amazon.com/images/I/71wYP5rp36L._AC_SL1200_.jpg",
+      },
+      {
+        name: "WD_BLACK SN850X 2TB NVMe SSD",
+        link: "https://amzn.to/4qYYZrD",
+        image: "https://m.media-amazon.com/images/I/61jQCrK6mFL._AC_SL1500_.jpg",
+      },
+      {
+        name: "AMD Ryzen 7 7800X3D",
+        link: "https://amzn.to/3BvamUk",
+        image: "https://m.media-amazon.com/images/I/51HqC0rU9HL._AC_SL1500_.jpg",
+      },
+      {
+        name: "ASUS Dual GeForce RTX 4070 White OC",
+        link: "https://amzn.to/4kYPMxT",
+        image: "https://m.media-amazon.com/images/I/81aLFs6DwgL._AC_SX466_.jpg",
+      },
+      {
+        name: "Corsair Vengeance DDR5 32GB",
+        link: "https://amzn.to/46s6ksk",
+        image: "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
+      },
+      {
+        name: "EKWB EK-Nucleus CPU AIO CR240 Dark",
+        link: "https://amzn.to/46ybLGd",
+        image: "https://m.media-amazon.com/images/I/51v4vlNYXmL._SL1500_.jpg",
+      },
+    ],
+  },
+];

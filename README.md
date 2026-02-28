@@ -42,9 +42,8 @@ A minimal, responsive personal website built with modern web technologies. Featu
   - Content creation
   - Side projects
 - **Gear** - Equipment and setup showcase
-  - Computer/Workspace
-  - PC Build
-  - Peripherals
+  - Desk Setup, Recording Gear, PC Gear (mirrors Amazon storefront lists)
+  - Data lives in `src/data/gear.ts`; update that file when you change your [Amazon lists](https://www.amazon.com/shop/phillipche) (Amazon does not provide an API for storefront lists, so sync is manual)
 
 ### Animations
 - Page transitions
