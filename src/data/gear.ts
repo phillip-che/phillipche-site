@@ -26,19 +26,11 @@ export interface GearCategory {
   items: GearEntry[];
 }
 
-const AMAZON_PLACEHOLDER =
-  "https://m.media-amazon.com/images/G/01/social/api-share/amazon_logo_500500._V323939215_.png";
-
 export const gearCategories: GearCategory[] = [
   {
     category: "Desk Setup",
     listUrl: "https://www.amazon.com/shop/phillipche/list/2EL6EOCFIKQ6O",
     items: [
-      {
-        name: "LiberNovo Dynamic Ergonomic Office Chair",
-        link: "https://amzn.to/3MWmraL",
-        image: "https://m.media-amazon.com/images/I/51frk9L5dgL._AC_SL1500_.jpg",
-      },
       {
         name: "LOFREE Flow Lite 84 Keys",
         link: "https://amzn.to/4cl5Vvu",
@@ -50,24 +42,24 @@ export const gearCategories: GearCategory[] = [
         image: "https://m.media-amazon.com/images/I/61YNZRCJnuL._AC_SL1500_.jpg",
       },
       {
+        name: "EPOMAKER x Aula F65 65% Wireless",
+        link: "https://amzn.to/4rJrGdi",
+        image: "https://m.media-amazon.com/images/I/613gc0JYwpL._AC_SL1500_.jpg",
+      },
+      {
+        name: "Razer Viper V3 Pro Wireless Gaming Mouse",
+        link: "https://amzn.to/4bgYdBu",
+        image: "https://m.media-amazon.com/images/I/619xpFKAXPL._AC_SL1500_.jpg",
+      },
+      {
+        name: "LiberNovo Dynamic Ergonomic Office Chair",
+        link: "https://amzn.to/3MWmraL",
+        image: "https://m.media-amazon.com/images/I/51frk9L5dgL._AC_SL1500_.jpg",
+      },
+      {
         name: "FIFINE Gaming XLR/USB Microphone Kit",
         link: "https://amzn.to/4aW9c1J",
         image: "https://m.media-amazon.com/images/I/61lQRD5+66L._AC_SL1500_.jpg",
-      },
-      {
-        name: "Under Desk Cable Management Tray",
-        link: "https://amzn.to/4l4SmTc",
-        image: "https://m.media-amazon.com/images/I/81vGseJ4e6L._AC_SL1500_.jpg",
-      },
-      {
-        name: "GUNMJO Pro Custom Coiled USB-C Cable",
-        link: "https://amzn.to/40z0CkP",
-        image: "https://m.media-amazon.com/images/I/61QcNG-4L1L._SL1500_.jpg",
-      },
-      {
-        name: "JOYROOM 9 Pack Magnetic Cable Clips",
-        link: "https://amzn.to/4rEQC5t",
-        image: "https://m.media-amazon.com/images/I/81yvBDKR49L._AC_SL1500_.jpg",
       },
       {
         name: "HyperX QuadCast S",
@@ -75,14 +67,29 @@ export const gearCategories: GearCategory[] = [
         image: "https://m.media-amazon.com/images/I/61dQJkzRopL._AC_SL1500_.jpg",
       },
       {
-        name: "EPOMAKER x Aula F65 65% Wireless",
-        link: "https://amzn.to/4rJrGdi",
-        image: "https://m.media-amazon.com/images/I/613gc0JYwpL._AC_SL1500_.jpg",
+        name: "GIGABYTE MO27Q28GR - 27in W-OLED Gaming Monitor",
+        link: "https://amzn.to/3OORcPx",
+        image: "https://m.media-amazon.com/images/I/81tV43avnpL._AC_SL1500_.jpg",
+      },
+      {
+        name: "FLEXISPOT E6 3-Stage Dual Motor Electric Standing Desk",
+        link: "https://amzn.to/4shFEmq",
+        image: "https://m.media-amazon.com/images/I/615aO04PBYL._AC_SL1500_.jpg",
+      },
+      {
+        name: "HUANUO FlowLift™ Dual Monitor Stand",
+        link: "https://amzn.to/47gnvNA",
+        image: "https://m.media-amazon.com/images/I/7182jSFV25L._AC_SL1500_.jpg",
       },
       {
         name: "SteelSeries QcK Gaming Mouse Pad",
         link: "https://amzn.to/4aW9kyf",
         image: "https://m.media-amazon.com/images/I/31AROTdFEzL._AC_SL1050_.jpg",
+      },
+      {
+        name: "GUNMJO Pro Custom Coiled USB-C Cable",
+        link: "https://amzn.to/40z0CkP",
+        image: "https://m.media-amazon.com/images/I/61QcNG-4L1L._SL1500_.jpg",
       },
     ],
   },
@@ -137,14 +144,14 @@ export const gearCategories: GearCategory[] = [
     listUrl: "https://www.amazon.com/shop/phillipche/list/2IJ800MZ94A7W",
     items: [
       {
+        name: "Apple 2024 MacBook Pro M4 Pro 16-inch",
+        link: "https://amzn.to/47eXoqk",
+        image: "https://m.media-amazon.com/images/I/61hw7aZWYSL._AC_SL1500_.jpg",
+      },
+      {
         name: "Lian Li A4-H2O",
         link: "https://amzn.to/3NbQVFX",
         image: "https://m.media-amazon.com/images/I/71wYP5rp36L._AC_SL1200_.jpg",
-      },
-      {
-        name: "WD_BLACK SN850X 2TB NVMe SSD",
-        link: "https://amzn.to/4qYYZrD",
-        image: "https://m.media-amazon.com/images/I/61jQCrK6mFL._AC_SL1500_.jpg",
       },
       {
         name: "AMD Ryzen 7 7800X3D",
@@ -157,9 +164,19 @@ export const gearCategories: GearCategory[] = [
         image: "https://m.media-amazon.com/images/I/81aLFs6DwgL._AC_SX466_.jpg",
       },
       {
+        name: "ASRock B650I Lightning Mini-ITX Motherboard",
+        link: "https://amzn.to/406k1th",
+        image: "https://m.media-amazon.com/images/I/818Cq+2O3kL._AC_SL1500_.jpg",
+      },
+      {
         name: "Corsair Vengeance DDR5 32GB",
         link: "https://amzn.to/46s6ksk",
         image: "https://m.media-amazon.com/images/I/71AV5PQu1yL._AC_SL1500_.jpg",
+      },
+      {
+        name: "WD_BLACK SN850X 2TB NVMe SSD",
+        link: "https://amzn.to/4qYYZrD",
+        image: "https://m.media-amazon.com/images/I/61jQCrK6mFL._AC_SL1500_.jpg",
       },
       {
         name: "EKWB EK-Nucleus CPU AIO CR240 Dark",
