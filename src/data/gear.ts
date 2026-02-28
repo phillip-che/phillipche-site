@@ -33,12 +33,12 @@ export const gearCategories: GearCategory[] = [
     items: [
       {
         name: "LOFREE Flow Lite 84 Keys",
-        link: "https://amzn.to/4cl5Vvu",
+        link: "https://www.lofree.co/products/flow-lite84-mechanical-keyboard?ref=phillipche",
         image: "https://m.media-amazon.com/images/I/61z5Q8bkrkL._AC_SL1500_.jpg",
       },
       {
         name: "LOFREE Flow2 Low-Profile Mechanical Keyboard",
-        link: "https://amzn.to/4l4yYpx",
+        link: "https://www.lofree.co/products/flow-2-84-low-profile-mechanical-keyboard?ref=phillipche&variant=47210573037787",
         image: "https://m.media-amazon.com/images/I/61YNZRCJnuL._AC_SL1500_.jpg",
       },
       {
@@ -53,7 +53,7 @@ export const gearCategories: GearCategory[] = [
       },
       {
         name: "LiberNovo Dynamic Ergonomic Office Chair",
-        link: "https://amzn.to/3MWmraL",
+        link: "https://libernovo.com/products/libernovo-omni-dynamic-ergonomic-chair?ref=PHILLIPCHE",
         image: "https://m.media-amazon.com/images/I/51frk9L5dgL._AC_SL1500_.jpg",
       },
       {
