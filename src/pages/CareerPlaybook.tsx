@@ -66,7 +66,7 @@ const bundle = {
   link: 'https://buy.stripe.com/eVq00ialwgXe54W1zV77O03',
 };
 
-const heroPhoto = 'https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/2.jpg';
+const heroPhoto = 'https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/IMG_0062.jpg';
 
 const CareerPlaybook = () => {
   usePageTitle('FAANG Career Playbook');
@@ -76,10 +76,15 @@ const CareerPlaybook = () => {
       {/* ===================== SECTION 1: HERO ===================== */}
       <FadeInSection>
         <div className="flex flex-col sm:flex-row items-start gap-5 mb-4">
-          <img
-            src={heroPhoto}
-            alt="Phillip Che"
-            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover flex-shrink-0"
+          <div
+            role="img"
+            aria-label="Phillip Che"
+            className="w-32 h-32 sm:w-36 sm:h-36 rounded-full flex-shrink-0 bg-no-repeat"
+            style={{
+              backgroundImage: `url(${heroPhoto})`,
+              backgroundSize: '130%',
+              backgroundPosition: '0% 75%',
+            }}
           />
           <div>
             <motion.h1 className="text-2xl sm:text-3xl font-bold leading-tight">
