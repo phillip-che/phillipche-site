@@ -66,7 +66,7 @@ const bundle = {
   link: 'https://buy.stripe.com/eVq00ialwgXe54W1zV77O03',
 };
 
-const heroPhoto = 'https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/IMG_0062.jpg';
+const heroPhoto = 'https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/IMG_0111.JPG';
 
 const CareerPlaybook = () => {
   usePageTitle('FAANG Career Playbook');

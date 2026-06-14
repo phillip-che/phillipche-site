@@ -1,20 +1,20 @@
 export const photos = [
   {
-    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/1.jpg",
+    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/11.jpg",
     date: "June 2024",
     location: "Lake Tahoe, CA",
     caption: "i got frostbite from the water",
     style: "sm:top-4 sm:left-[-10%] top-2 left-2 rotate-[-6deg] z-10"
   },
   {
-    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/5.jpg",
+    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/12.jpg",
     date: "December 2024",
     location: "San Diego, CA",
     caption: "balboa park was too big",
     style: "sm:top-12 sm:left-[15%] top-8 right-2 rotate-[4deg] z-20"
   },
   {
-    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/10.jpg",
+    image: "https://raw.githubusercontent.com/phillip-che/phillipche-site/refs/heads/main/src/assets/images/13.jpg",
     date: "July 2024",
     location: "COEX Aquarium, South Korea",
     caption: "pregnant korean shark",
