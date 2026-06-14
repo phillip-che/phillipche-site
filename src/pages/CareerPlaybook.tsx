@@ -82,8 +82,8 @@ const CareerPlaybook = () => {
             className="w-32 h-32 sm:w-36 sm:h-36 rounded-full flex-shrink-0 bg-no-repeat"
             style={{
               backgroundImage: `url(${heroPhoto})`,
-              backgroundSize: '150%',
-              backgroundPosition: '62% 52%',
+              backgroundSize: '115%',
+              backgroundPosition: '81% 66%',
             }}
           />
           <div>
